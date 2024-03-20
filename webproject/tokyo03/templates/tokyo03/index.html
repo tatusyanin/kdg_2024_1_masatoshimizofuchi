@@ -1,0 +1,141 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block header %}
+<h1 id="logo"><img src="{% static 'tokyo03/images/icon.png' %}" alt="Artist Name"></a></h1>
+<link rel="stylesheet" href="{% static 'tokyo03/css/style.css' %}">
+
+
+{% endblock %}
+
+{% block content %}
+<div id="contents">
+
+<main>
+
+<section class="blur">
+
+<h2>東京03紹介サイト<span></span></h2>
+
+<h3>Member</h3>
+    <p>
+     飯塚 悟志（いいづかさとし）
+     東京03のリーダー<br>
+     スクールJCA2期生<br>
+     生年月日:S.48.5.27生<br>
+     出身地：千葉県四街道市<br>
+     血液型:O型<br>
+     サイズ:T.170cm/W.60kg<br>
+     四街道市立南小学校、四街道市立千代田中学校を経て、<br>
+     千葉県立若松高等学校卒業。<br>
+     プロダクション人力舎所属。<br>
+     1995年、豊本明長とお笑いコンビ、「アルファルファ」を結成<br>
+     2003年、アルファルファに元プラスドライバーの角田晃広を<br>
+     加入させる形で、「東京03」を結成。<br>
+     </p>
+     <div class="i">
+        <img src="{% static 'tokyo03/images/satoshi.jpeg' %}"alt = "飯塚">
+    </div>
+    <p>
+        角田 晃広（かくたあきひろ）<br>
+        生年月日:S.48.12.13生<br>
+        出身地：東京都<br>
+        血液型:A型<br>
+        サイズ:T.172cm/W.62kg<br>
+        趣味：弾き語り<br>
+        特技：卓球<br>
+        ハイテンションなボケが特徴。<br>
+        コント内ではヘタレで見栄っ張りなキャラを演じることが多く、<br>
+        稀に女装をする<br>
+        <div class="m">
+            <img src="{% static 'tokyo03/images/miki.jpeg' %}"alt="角田">
+        </div>
+    </p>
+    <p>
+        豊本 明長（とよもとあきなが）
+        スクールJCA:スクールJCA3期生<br>
+        生年月日:S.50.6.6生<br>
+        出身地：愛知県<br>
+        血液型:A型<br>
+        サイズ:T.175cm/W.65kg<br>
+        趣味：音楽<br>
+        特技：プロレス観戦<br>
+        屈託のない飄々としたキャラが特徴。出番・セリフが相方2人に比べて少ないが、女性役はほとんど豊本が担当している。<br>
+        名前は豊本豊美<br>
+        相方2人に比べると不気味でミステリアスな<br>
+        雰囲気を醸し出す役回りを演じる事も多く、<br>
+        <strong>全てのコントで物語の核を担っている。<br></strong>
+        長いセリフが多い時もある。<br>
+        <div class="t">
+            <img src="{% static 'tokyo03/images/nametageru.jpeg' %}"alt="トヨモティーノ舐めたげる">
+        </div>
+    </p> 
+<h3></h3>
+<p><a href="{% static 'tokyo03/images/about.html"></a></p>
+
+</section>
+
+<div class="about"> 
+    <img src="{% static 'tokyo03/images/live.jpg' %}">    
+    <p1><br>飯塚は学生時代からお笑いが好きで、学園祭など人前で披露するわけでもなくネタを書いていたという。<br>
+        高校卒業後の進路で就職か大学進学かで悩んでいた1992年、ノストラダムスの大予言が流行。10年もしない内に世界が滅ぶなら好きなことをしようと内向的な性格ながらも芸人を志す。<br>
+        また、豊本も高校卒業後の進路で悩み、就職も大学進学も嫌だったためお笑いは楽しそうで上京もできると考え、芸人を目指して養成所に入ることとなる。<br>
+        スクールJCA2期生だった飯塚は通った1年間で相方を見つけられず、3期生で当時別のコンビにて活動しツッコミを担当していた豊本を誘いコンビ『アルファルファ』を1995年に結成。<br>
+        <img src="{% static 'tokyo03/images/a.jpg' %}">
+    </p1>
+    <p2>
+        <br>日常に潜む「何気ないシチュエーション」を描いた究極のリアル系コント<br>
+        <strong>トリオ名は3人組であること2003年に結成したこと東京23区の市外局番をかけたトリプルネーミングである。<br></strong>
+    <img src="{% static 'tokyo03/images/ossann.jpg' %}">
+    <br>最初期のコントについては飯塚と角田の
+    2人で作っており、豊本はネタ作りに参加していない。<br>
+    角田が出した設定で書くこともあれば、飯塚が考えた設定で角田が
+    自分のセリフを書くこともあったが、<br>
+    すぐに飯塚が殆どのシナリオを書くようになり飯塚は「結成当初は2人で完全に半々でやってたんですけど、すぐに僕の負担が大きくなって…」と述べている。<br>
+    また、それを受けた角田は「その方が面白いネタが出来上がるんでね！」と語っている<br>  
+    </p2>
+</div>
+
+<section class="blur">
+
+<h2 class="c">youtube<span></span></h2>
+
+<div class="list-banner">
+
+    
+<a href="{% url 'recommendation-detail' pk=1 %}">
+<div class="list">
+<h4>おすすめ動画<span></span></h4>
+<figure><img src="{% static 'tokyo03/images/1.jpg' %}" alt=""></figure>
+</div>
+</a>
+
+<a href="https://www.p-jinriki.com/talent/tokyo03/">
+<div class="list">
+<h4>東京03公式サイト<span></span></h4>
+<figure><img src="{% static 'tokyo03/images/2.jpg' %}" alt=""></figure>
+</div>
+</a>
+
+</div>
+
+</section>
+
+<div id="menubar">
+
+    <nav>
+    <ul>
+    <li><a href="index.html">home</a></li>
+    <li><a href="profile.html">プロフィール</a></li>
+    <li><a href="reccomendation.html">作品集</a></li>
+    <li><a href="contact.html">お問い合わせ</a></li>
+    <li><a href="link.html">リンク集</a></li>
+    </ul>
+    </nav>
+    
+    </div>
+
+</main>
+
+</div>
+<!--/#contents-->
+{% endblock %}

@@ -1,0 +1,113 @@
+@charset "UTF-8";
+body {
+    text-align: center;
+    font-size: 55px;
+}
+p{
+    margin-bottom: 20px;
+}
+.header  {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.iiduka {
+    margin-bottom: 20px;
+}
+.about img{
+    margin-left: 23px;
+}
+
+
+.about p1 img {
+    margin-left: 60px;
+}
+.about p2 img {
+    margin-left: 100px;
+}
+footer  {
+    margin-top: 30px;
+}
+footer a1{
+    color: aqua;
+}
+footer a2 {
+    color: bisque;
+}
+footer a3 {
+    color: rgb(75, 219, 115);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
